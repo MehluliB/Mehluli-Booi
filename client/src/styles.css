@@ -1,0 +1,14 @@
+:root { --accent:#0066ff; --muted:#666; }
+body { font-family: system-ui, sans-serif; margin:0; color:#222; background:#fafafa; }
+.container { max-width:1000px; margin:0 auto; padding:1rem; }
+.site-header { background:#fff; border-bottom:1px solid #eee; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+.site-header a { text-decoration:none; color:inherit; margin-left:0.75rem; }
+.hero { padding:2rem 0; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1rem; }
+.card { border:1px solid #eee; border-radius:8px; overflow:hidden; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.03); }
+.card-img { width:100%; height:140px; object-fit:cover; display:block; }
+.card-body { padding:1rem; }
+.stack { color:var(--muted); font-size:0.9rem; margin-top:0.5rem; }
+.links a { margin-right:0.5rem; color:var(--accent); text-decoration:none; }
+.site-footer { text-align:center; padding:1rem 0; color:var(--muted); margin-top:2rem; }
